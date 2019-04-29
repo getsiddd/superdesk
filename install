@@ -121,15 +121,8 @@ libtiff5-dev libjpeg8-dev zlib1g-dev \
 libfreetype6-dev liblcms2-dev libwebp-dev \
 curl libfontconfig libssl-dev \
 libxml2-dev libxslt1-dev \
-libxmlsec1-dev
+libxmlsec1-dev npm
 
-# node & npm
-if ! _skip_install nodejs; then
-    curl -sL https://deb.nodesource.com/setup_7.x | bash -
-    apt-get install -y nodejs
-
-    npm install -g grunt-cli
-fi
 
 node --version
 npm --version
