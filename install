@@ -171,6 +171,7 @@ time pip install -U -r $req
 cd /opt/superdesk/client
 time npm install
 
+cat <<"EOF" > /
 superdesk/activate.sh
 # you could write variables to /opt/superdesk/env.sh
 . /opt/superdesk/env/bin/activate
