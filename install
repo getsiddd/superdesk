@@ -123,6 +123,8 @@ curl libfontconfig libssl-dev \
 libxml2-dev libxslt1-dev  node-gyp \
 libxmlsec1-dev npm
 
+sudo apt-get install npm
+
 
 node --version
 npm --version
