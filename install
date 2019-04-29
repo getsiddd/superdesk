@@ -173,7 +173,10 @@ time npm install
 
 
 ### deploy
-cat <<"EOF" > /opt/superdesk/activate.sh
+cat <<"EOF" > /
+
+
+superdesk/activate.sh
 # you could write variables to /opt/superdesk/env.sh
 . /opt/superdesk/env/bin/activate
 
